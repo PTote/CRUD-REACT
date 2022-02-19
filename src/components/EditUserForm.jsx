@@ -12,7 +12,7 @@ const EditUserForm = (props) => {
         formState: { errors },
         setValue,
     } = useForm({
-        defaultValues: props.currentUser
+        defaultValues: props.currentUser //recibe los valores por defecto del formulario
     });
 
 
